@@ -1,0 +1,131 @@
+
+/* ESTILO GERAL */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body{
+    background-color: rgb(0, 0, 0);
+    height: 100vh;
+}   
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+/* ESTILO DO CABEÇALHO */
+header{
+    padding: 30px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a{
+color: #9b9b9b;
+text-decoration: none;
+display: inline-block;
+transition: .2s;
+}
+
+header a:hover{
+    color: #fff;
+    transform: scale(1.05);
+}
+
+header nav ul{
+    list-style-type: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+
+header .btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color:#27cb59;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+header .btn-contato button:hover{
+    box-shadow: 0px px 8px #27cb59;
+}
+
+/*ESTILO DO TIPO DO SITE*/
+section.topo-do-site{
+    padding: 20px 20%;
+}
+section.topo-do-site .flex{
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.topo-do-site h1{
+    color:#b3b3b3;
+    font-size: 40px;
+    line-height: 60px;
+
+}
+
+.topo-do-site .txt-topo-site h1 span{
+color: #b3b3b3;
+}
+
+.topo-do-site .txt-topo-site p{
+    color: #b3b3b3;
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+    background-color: #000000;
+    color: #b3b3b3;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+}
+
+th, td {
+    border: 1px solid #b3b3b3;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #000000;
+}
+section.topo-do-site .flex{
+    align-items: last baseline;
+    justify-content: space-between;
+}
+header .btn-Hire-Me button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color:#27cb59;
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+header .btn-contato button:hover{
+    box-shadow: 0px px 8px #27cb59;
+
+
+
